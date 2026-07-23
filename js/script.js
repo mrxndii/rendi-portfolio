@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 bgmAudio.pause();
                 updateMusicIcon(false);
             } else {
-                bgmAudio.src = bgmTracks[val] + '?v=' + new Date().getTime();
+                bgmAudio.src = bgmTracks[val];
                 bgmAudio.play();
                 updateMusicIcon(true);
             }
